@@ -15,7 +15,26 @@ console.log(maxfunc(arr));
 //Using reduce method min number
 const minfunc = (arr) => {
     return arr.reduce((acc, val) => {
-        return val>acc ? val : acc;
+        return val<acc ? val : acc;
     });
 }
 console.log(minfunc(arr));
+
+//Using for loop max number
+let max = arr[0];
+for(let i=1; i<arr.length; i++){
+    if(arr[i]>max){
+        max = arr[i];
+    }
+}
+console.log(max);
+
+//Using for loop min number
+let min = arr[0];
+for(let i=1; i<arr.length; i++){
+    if(arr[i]<min){
+        min = arr[i];
+    }
+}
+console.log(min);
+
