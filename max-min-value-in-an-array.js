@@ -38,3 +38,17 @@ for(let i=1; i<arr.length; i++){
 }
 console.log(min);
 
+
+//using for loop
+const arr = [2,4,6,8,10]
+
+function maxNumber(att){
+  let max = att[0]
+  for (var i = 1; i < att.length; i++) {
+    if (att[i]> max) {
+      max = att[i]
+    }
+  }
+  console.log(max);
+}
+maxNumber(arr);
