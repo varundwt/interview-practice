@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.butt {
+  padding: 10px;
+  border: 2px brown solid;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100px;
+  min-height: 150px;
+}
+
+img {
+  height: 15vh;
+}
+
+.cardarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 10px;
+}
+
+.butt {
+}
+
+.curr {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: 20px;
+  border-radius: 100%;
+}
+
+span {
+}
