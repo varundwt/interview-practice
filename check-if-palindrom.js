@@ -10,4 +10,4 @@ function vowels(str) {
   }
 }
 
-vowels(111)
+vowels(111);
