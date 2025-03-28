@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.Dark {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
